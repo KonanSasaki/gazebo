@@ -1,0 +1,3 @@
+[console_scripts]
+move_back_node = move_back.move_back_node:main
+

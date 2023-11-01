@@ -1,0 +1,31 @@
+[4.399s] Invoking command in '/home/kakacafu/gazebo2/src/move': PYTHONPATH=/home/kakacafu/gazebo2/build/move/prefix_override:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/kakacafu/gazebo2/build/move/build install --record /home/kakacafu/gazebo2/build/move/install.log --single-version-externally-managed
+[5.412s] running egg_info
+[5.412s] writing ../../build/move/move.egg-info/PKG-INFO
+[5.412s] writing dependency_links to ../../build/move/move.egg-info/dependency_links.txt
+[5.414s] writing entry points to ../../build/move/move.egg-info/entry_points.txt
+[5.418s] writing requirements to ../../build/move/move.egg-info/requires.txt
+[5.419s] writing top-level names to ../../build/move/move.egg-info/top_level.txt
+[5.430s] reading manifest file '../../build/move/move.egg-info/SOURCES.txt'
+[5.435s] writing manifest file '../../build/move/move.egg-info/SOURCES.txt'
+[5.437s] running build
+[5.438s] running build_py
+[5.441s] copying move/__init__.py -> /home/kakacafu/gazebo2/build/move/build/lib/move
+[5.441s] copying move/move_node.py -> /home/kakacafu/gazebo2/build/move/build/lib/move
+[5.442s] running install
+[5.442s] Traceback (most recent call last):
+[5.444s]   File "/home/kakacafu/gazebo2/src/move/setup.py", line 5, in <module>
+[5.445s]     setup(
+[5.446s]   File "/home/kakacafu/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+[5.447s]     return distutils.core.setup(**attrs)
+[5.448s]   File "/usr/lib/python3.10/distutils/core.py", line 148, in setup
+[5.449s]     dist.run_commands()
+[5.450s]   File "/usr/lib/python3.10/distutils/dist.py", line 966, in run_commands
+[5.451s]     self.run_command(cmd)
+[5.452s]   File "/usr/lib/python3.10/distutils/dist.py", line 983, in run_command
+[5.453s]     cmd_obj = self.get_command_obj(command)
+[5.454s]   File "/usr/lib/python3.10/distutils/dist.py", line 868, in get_command_obj
+[5.455s]     self._set_command_options(cmd_obj, options)
+[5.456s]   File "/home/kakacafu/.local/lib/python3.10/site-packages/setuptools/dist.py", line 774, in _set_command_options
+[5.457s]     elif hasattr(command_obj, option):
+[5.457s] TypeError: hasattr(): attribute name must be string
+[5.512s] Invoked command in '/home/kakacafu/gazebo2/src/move' returned '1': PYTHONPATH=/home/kakacafu/gazebo2/build/move/prefix_override:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/kakacafu/gazebo2/build/move/build install --record /home/kakacafu/gazebo2/build/move/install.log --single-version-externally-managed

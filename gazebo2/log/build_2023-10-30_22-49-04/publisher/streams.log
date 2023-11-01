@@ -1,0 +1,21 @@
+[11.782s] Invoking command in '/home/kakacafu/gazebo2/src/publisher': PYTHONPATH=/home/kakacafu/gazebo2/build/publisher/prefix_override:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher build --build-base /home/kakacafu/gazebo2/build/publisher/build install --record /home/kakacafu/gazebo2/build/publisher/install.log --single-version-externally-managed
+[16.130s] running egg_info
+[16.153s] writing ../../build/publisher/publisher.egg-info/PKG-INFO
+[16.158s] writing dependency_links to ../../build/publisher/publisher.egg-info/dependency_links.txt
+[16.164s] writing entry points to ../../build/publisher/publisher.egg-info/entry_points.txt
+[16.175s] writing requirements to ../../build/publisher/publisher.egg-info/requires.txt
+[16.190s] writing top-level names to ../../build/publisher/publisher.egg-info/top_level.txt
+[16.215s] reading manifest file '../../build/publisher/publisher.egg-info/SOURCES.txt'
+[16.237s] writing manifest file '../../build/publisher/publisher.egg-info/SOURCES.txt'
+[16.242s] running build
+[16.242s] running build_py
+[16.250s] running install
+[16.258s] running install_lib
+[16.285s] running install_data
+[16.300s] running install_egg_info
+[16.325s] removing '/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages/publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[16.331s] Copying ../../build/publisher/publisher.egg-info to /home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages/publisher-0.0.0-py3.10.egg-info
+[16.365s] running install_scripts
+[16.686s] Installing publisher_node script to /home/kakacafu/gazebo2/install/publisher/lib/publisher
+[16.695s] writing list of installed files to '/home/kakacafu/gazebo2/build/publisher/install.log'
+[16.958s] Invoked command in '/home/kakacafu/gazebo2/src/publisher' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/publisher/prefix_override:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher build --build-base /home/kakacafu/gazebo2/build/publisher/build install --record /home/kakacafu/gazebo2/build/publisher/install.log --single-version-externally-managed

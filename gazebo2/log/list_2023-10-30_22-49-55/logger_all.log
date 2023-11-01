@@ -1,0 +1,76 @@
+[89.586s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/kakacafu/gazebo2']
+[89.597s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/kakacafu/gazebo2'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3fc38bc1c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f3fc38345b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f3fc38345b0>>)
+[93.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[93.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[93.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[93.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[93.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[93.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kakacafu/gazebo2'
+[93.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extensions ['ignore', 'ignore_ament_install']
+[93.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'ignore'
+[93.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'ignore_ament_install'
+[93.188s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extensions ['colcon_pkg']
+[93.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'colcon_pkg'
+[93.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extensions ['colcon_meta']
+[93.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'colcon_meta'
+[93.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extensions ['ros']
+[93.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'ros'
+[93.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extensions ['cmake', 'python']
+[93.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'cmake'
+[93.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'python'
+[93.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extensions ['python_setup_py']
+[93.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2) by extension 'python_setup_py'
+[93.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/build) by extensions ['ignore', 'ignore_ament_install']
+[93.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/build) by extension 'ignore'
+[93.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/build) ignored
+[93.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/install) by extensions ['ignore', 'ignore_ament_install']
+[93.760s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/install) by extension 'ignore'
+[93.761s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/install) ignored
+[93.766s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/log) by extensions ['ignore', 'ignore_ament_install']
+[93.766s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/log) by extension 'ignore'
+[93.766s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/log) ignored
+[93.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extensions ['ignore', 'ignore_ament_install']
+[93.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'ignore'
+[93.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'ignore_ament_install'
+[93.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extensions ['colcon_pkg']
+[93.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'colcon_pkg'
+[93.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extensions ['colcon_meta']
+[93.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'colcon_meta'
+[93.778s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extensions ['ros']
+[93.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'ros'
+[93.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extensions ['cmake', 'python']
+[93.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'cmake'
+[93.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'python'
+[93.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extensions ['python_setup_py']
+[93.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src) by extension 'python_setup_py'
+[93.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extensions ['ignore', 'ignore_ament_install']
+[93.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extension 'ignore'
+[93.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extension 'ignore_ament_install'
+[93.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extensions ['colcon_pkg']
+[93.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extension 'colcon_pkg'
+[93.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extensions ['colcon_meta']
+[93.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extension 'colcon_meta'
+[93.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extensions ['ros']
+[93.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/move) by extension 'ros'
+[94.047s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kakacafu/gazebo2/src/move' with type 'ros.ament_python' and name 'move'
+[94.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extensions ['ignore', 'ignore_ament_install']
+[94.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extension 'ignore'
+[94.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extension 'ignore_ament_install'
+[94.077s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extensions ['colcon_pkg']
+[94.077s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extension 'colcon_pkg'
+[94.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extensions ['colcon_meta']
+[94.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extension 'colcon_meta'
+[94.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extensions ['ros']
+[94.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/publisher) by extension 'ros'
+[94.112s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kakacafu/gazebo2/src/publisher' with type 'ros.ament_python' and name 'publisher'
+[94.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extensions ['ignore', 'ignore_ament_install']
+[94.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extension 'ignore'
+[94.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extension 'ignore_ament_install'
+[94.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extensions ['colcon_pkg']
+[94.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extension 'colcon_pkg'
+[94.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extensions ['colcon_meta']
+[94.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extension 'colcon_meta'
+[94.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extensions ['ros']
+[94.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/kakacafu/gazebo2/src/robot_gazebo_test_description) by extension 'ros'
+[94.131s] DEBUG:colcon.colcon_core.package_identification:Package '/home/kakacafu/gazebo2/src/robot_gazebo_test_description' with type 'ros.ament_python' and name 'robot_gazebo_test_description'
+[94.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

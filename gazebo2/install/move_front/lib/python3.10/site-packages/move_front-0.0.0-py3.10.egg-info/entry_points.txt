@@ -1,0 +1,3 @@
+[console_scripts]
+move_front_node = move_front.move_front_node:main
+

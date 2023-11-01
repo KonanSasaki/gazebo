@@ -1,0 +1,22 @@
+[2.878s] Invoking command in '/home/kakacafu/gazebo2/src/robot_gazebo_test_description': PYTHONPATH=/home/kakacafu/gazebo2/build/robot_gazebo_test_description/prefix_override:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_gazebo_test_description build --build-base /home/kakacafu/gazebo2/build/robot_gazebo_test_description/build install --record /home/kakacafu/gazebo2/build/robot_gazebo_test_description/install.log --install-scripts $base/lib/robot_gazebo_test_description --single-version-externally-managed
+[3.636s] running egg_info
+[3.637s] writing ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/PKG-INFO
+[3.640s] writing dependency_links to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/dependency_links.txt
+[3.641s] writing entry points to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/entry_points.txt
+[3.642s] writing requirements to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/requires.txt
+[3.644s] writing top-level names to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/top_level.txt
+[3.651s] reading manifest file '../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/SOURCES.txt'
+[3.654s] writing manifest file '../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/SOURCES.txt'
+[3.657s] running build
+[3.658s] running build_py
+[3.659s] running install
+[3.661s] running install_lib
+[3.666s] running install_data
+[3.668s] copying urdf/robot_gazebo_test.gazebo -> /home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/urdf
+[3.670s] copying urdf/robot_gazebo_test.xacro -> /home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/urdf
+[3.671s] running install_egg_info
+[3.677s] removing '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages/robot_gazebo_test_description-0.0.0-py3.10.egg-info' (and everything under it)
+[3.679s] Copying ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info to /home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages/robot_gazebo_test_description-0.0.0-py3.10.egg-info
+[3.683s] running install_scripts
+[3.726s] writing list of installed files to '/home/kakacafu/gazebo2/build/robot_gazebo_test_description/install.log'
+[3.767s] Invoked command in '/home/kakacafu/gazebo2/src/robot_gazebo_test_description' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/robot_gazebo_test_description/prefix_override:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_gazebo_test_description build --build-base /home/kakacafu/gazebo2/build/robot_gazebo_test_description/build install --record /home/kakacafu/gazebo2/build/robot_gazebo_test_description/install.log --install-scripts $base/lib/robot_gazebo_test_description --single-version-externally-managed

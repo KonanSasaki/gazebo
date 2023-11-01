@@ -1,0 +1,327 @@
+[2.637s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.638s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6f06712f20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6f06712a40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6f06712a40>>)
+[2.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.768s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kakacafu/gazebo2'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extensions ['ignore', 'ignore_ament_install']
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extension 'ignore'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extension 'ignore_ament_install'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extensions ['colcon_pkg']
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extension 'colcon_pkg'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extensions ['colcon_meta']
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extension 'colcon_meta'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extensions ['ros']
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/move) by extension 'ros'
+[2.828s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move' with type 'ros.ament_python' and name 'move'
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extensions ['ignore', 'ignore_ament_install']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extension 'ignore'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extension 'ignore_ament_install'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extensions ['colcon_pkg']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extension 'colcon_pkg'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extensions ['colcon_meta']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extension 'colcon_meta'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extensions ['ros']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_back) by extension 'ros'
+[2.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_back' with type 'ros.ament_python' and name 'move_back'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extensions ['ignore', 'ignore_ament_install']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extension 'ignore'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extension 'ignore_ament_install'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extensions ['colcon_pkg']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extension 'colcon_pkg'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extensions ['colcon_meta']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extension 'colcon_meta'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extensions ['ros']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_front) by extension 'ros'
+[2.832s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_front' with type 'ros.ament_python' and name 'move_front'
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extension 'ignore'
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extension 'ignore_ament_install'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extensions ['colcon_pkg']
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extension 'colcon_pkg'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extensions ['colcon_meta']
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extension 'colcon_meta'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extensions ['ros']
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher) by extension 'ros'
+[2.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher' with type 'ros.ament_python' and name 'publisher'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extensions ['ignore', 'ignore_ament_install']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extension 'ignore'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extension 'ignore_ament_install'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extensions ['colcon_pkg']
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extension 'colcon_pkg'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extensions ['colcon_meta']
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extension 'colcon_meta'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extensions ['ros']
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_gazebo_test_description) by extension 'ros'
+[2.839s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_gazebo_test_description' with type 'ros.ament_python' and name 'robot_gazebo_test_description'
+[2.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.140s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/kakacafu/gazebo2/install
+[3.172s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[3.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'cmake_args' from command line to 'None'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'cmake_target' from command line to 'None'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'cmake_clean_cache' from command line to 'False'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'cmake_clean_first' from command line to 'False'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'cmake_force_configure' from command line to 'False'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'ament_cmake_args' from command line to 'None'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'catkin_cmake_args' from command line to 'None'
+[3.425s] Level 5:colcon.colcon_core.verb:set package 'move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.425s] DEBUG:colcon.colcon_core.verb:Building package 'move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakacafu/gazebo2/build/move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakacafu/gazebo2/install/move', 'merge_install': False, 'path': '/home/kakacafu/gazebo2/src/move', 'symlink_install': False, 'test_result_base': None}
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'cmake_args' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'cmake_target' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'cmake_clean_cache' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'cmake_clean_first' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'cmake_force_configure' from command line to 'False'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'ament_cmake_args' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'catkin_cmake_args' from command line to 'None'
+[3.453s] Level 5:colcon.colcon_core.verb:set package 'move_back' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.453s] DEBUG:colcon.colcon_core.verb:Building package 'move_back' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakacafu/gazebo2/build/move_back', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakacafu/gazebo2/install/move_back', 'merge_install': False, 'path': '/home/kakacafu/gazebo2/src/move_back', 'symlink_install': False, 'test_result_base': None}
+[3.479s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'cmake_args' from command line to 'None'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'cmake_target' from command line to 'None'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'cmake_clean_cache' from command line to 'False'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'cmake_clean_first' from command line to 'False'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'cmake_force_configure' from command line to 'False'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'ament_cmake_args' from command line to 'None'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'catkin_cmake_args' from command line to 'None'
+[3.480s] Level 5:colcon.colcon_core.verb:set package 'move_front' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.480s] DEBUG:colcon.colcon_core.verb:Building package 'move_front' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakacafu/gazebo2/build/move_front', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakacafu/gazebo2/install/move_front', 'merge_install': False, 'path': '/home/kakacafu/gazebo2/src/move_front', 'symlink_install': False, 'test_result_base': None}
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_args' from command line to 'None'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_target' from command line to 'None'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_clean_first' from command line to 'False'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'cmake_force_configure' from command line to 'False'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'ament_cmake_args' from command line to 'None'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[3.509s] Level 5:colcon.colcon_core.verb:set package 'publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.509s] DEBUG:colcon.colcon_core.verb:Building package 'publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakacafu/gazebo2/build/publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakacafu/gazebo2/install/publisher', 'merge_install': False, 'path': '/home/kakacafu/gazebo2/src/publisher', 'symlink_install': False, 'test_result_base': None}
+[3.534s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'cmake_args' from command line to 'None'
+[3.534s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'cmake_target' from command line to 'None'
+[3.534s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.534s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.534s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.535s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo_test_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.535s] DEBUG:colcon.colcon_core.verb:Building package 'robot_gazebo_test_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kakacafu/gazebo2/build/robot_gazebo_test_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kakacafu/gazebo2/install/robot_gazebo_test_description', 'merge_install': False, 'path': '/home/kakacafu/gazebo2/src/robot_gazebo_test_description', 'symlink_install': False, 'test_result_base': None}
+[3.559s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.585s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.587s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakacafu/gazebo2/src/move' with build type 'ament_python'
+[3.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('move', 'ament_prefix_path')
+[3.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move/share/move/hook/ament_prefix_path.ps1'
+[3.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/move/share/move/hook/ament_prefix_path.dsv'
+[3.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move/share/move/hook/ament_prefix_path.sh'
+[3.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.806s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakacafu/gazebo2/src/move_back' with build type 'ament_python'
+[3.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_back', 'ament_prefix_path')
+[3.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_back/share/move_back/hook/ament_prefix_path.ps1'
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/move_back/share/move_back/hook/ament_prefix_path.dsv'
+[3.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_back/share/move_back/hook/ament_prefix_path.sh'
+[3.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.977s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakacafu/gazebo2/src/move_front' with build type 'ament_python'
+[3.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_front', 'ament_prefix_path')
+[4.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_front/share/move_front/hook/ament_prefix_path.ps1'
+[4.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/move_front/share/move_front/hook/ament_prefix_path.dsv'
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_front/share/move_front/hook/ament_prefix_path.sh'
+[4.044s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.044s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.139s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakacafu/gazebo2/src/publisher' with build type 'ament_python'
+[4.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher', 'ament_prefix_path')
+[4.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/publisher/share/publisher/hook/ament_prefix_path.ps1'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/publisher/share/publisher/hook/ament_prefix_path.dsv'
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/publisher/share/publisher/hook/ament_prefix_path.sh'
+[4.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.025s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakacafu/gazebo2/src/move'
+[5.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.705s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakacafu/gazebo2/src/move_back'
+[5.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.429s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakacafu/gazebo2/src/move_front'
+[6.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.107s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakacafu/gazebo2/src/publisher'
+[7.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakacafu/gazebo2/src/move': PYTHONPATH=/home/kakacafu/gazebo2/build/move/prefix_override:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/kakacafu/gazebo2/build/move/build install --record /home/kakacafu/gazebo2/build/move/install.log --single-version-externally-managed
+[8.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakacafu/gazebo2/src/move_front': PYTHONPATH=/home/kakacafu/gazebo2/build/move_front/prefix_override:/home/kakacafu/gazebo2/install/move_front/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_front build --build-base /home/kakacafu/gazebo2/build/move_front/build install --record /home/kakacafu/gazebo2/build/move_front/install.log --single-version-externally-managed
+[8.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakacafu/gazebo2/src/move_back': PYTHONPATH=/home/kakacafu/gazebo2/build/move_back/prefix_override:/home/kakacafu/gazebo2/install/move_back/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_back build --build-base /home/kakacafu/gazebo2/build/move_back/build install --record /home/kakacafu/gazebo2/build/move_back/install.log --single-version-externally-managed
+[8.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakacafu/gazebo2/src/publisher': PYTHONPATH=/home/kakacafu/gazebo2/build/publisher/prefix_override:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher build --build-base /home/kakacafu/gazebo2/build/publisher/build install --record /home/kakacafu/gazebo2/build/publisher/install.log --single-version-externally-managed
+[9.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakacafu/gazebo2/src/move_front' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/move_front/prefix_override:/home/kakacafu/gazebo2/install/move_front/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_front build --build-base /home/kakacafu/gazebo2/build/move_front/build install --record /home/kakacafu/gazebo2/build/move_front/install.log --single-version-externally-managed
+[9.166s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_front' for CMake module files
+[9.169s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_front' for CMake config files
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_front/lib'
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_front/bin'
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_front/lib/pkgconfig/move_front.pc'
+[9.176s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_front/lib/python3.10/site-packages'
+[9.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_front', 'pythonpath')
+[9.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_front/share/move_front/hook/pythonpath.ps1'
+[9.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/move_front/share/move_front/hook/pythonpath.dsv'
+[9.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_front/share/move_front/hook/pythonpath.sh'
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_front/bin'
+[9.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_front)
+[9.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_front/share/move_front/package.ps1'
+[9.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakacafu/gazebo2/install/move_front/share/move_front/package.dsv'
+[9.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_front/share/move_front/package.sh'
+[9.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_front/share/move_front/package.bash'
+[9.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_front/share/move_front/package.zsh'
+[9.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakacafu/gazebo2/install/move_front/share/colcon-core/packages/move_front)
+[9.356s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kakacafu/gazebo2/src/robot_gazebo_test_description' with build type 'ament_python'
+[9.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_gazebo_test_description', 'ament_prefix_path')
+[9.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/hook/ament_prefix_path.ps1'
+[9.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/hook/ament_prefix_path.dsv'
+[9.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/hook/ament_prefix_path.sh'
+[9.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakacafu/gazebo2/src/move' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/move/prefix_override:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/kakacafu/gazebo2/build/move/build install --record /home/kakacafu/gazebo2/build/move/install.log --single-version-externally-managed
+[9.595s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move' for CMake module files
+[9.597s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move' for CMake config files
+[9.603s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move/lib'
+[9.603s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move/bin'
+[9.604s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move/lib/pkgconfig/move.pc'
+[9.604s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages'
+[9.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('move', 'pythonpath')
+[9.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move/share/move/hook/pythonpath.ps1'
+[9.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/move/share/move/hook/pythonpath.dsv'
+[9.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move/share/move/hook/pythonpath.sh'
+[9.639s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move/bin'
+[9.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move)
+[9.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move/share/move/package.ps1'
+[9.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakacafu/gazebo2/install/move/share/move/package.dsv'
+[9.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move/share/move/package.sh'
+[9.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move/share/move/package.bash'
+[9.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move/share/move/package.zsh'
+[9.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakacafu/gazebo2/install/move/share/colcon-core/packages/move)
+[9.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakacafu/gazebo2/src/publisher' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/publisher/prefix_override:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher build --build-base /home/kakacafu/gazebo2/build/publisher/build install --record /home/kakacafu/gazebo2/build/publisher/install.log --single-version-externally-managed
+[9.720s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/publisher' for CMake module files
+[9.721s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/publisher' for CMake config files
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/publisher/lib'
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/publisher/bin'
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/publisher/lib/pkgconfig/publisher.pc'
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages'
+[9.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher', 'pythonpath')
+[9.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/publisher/share/publisher/hook/pythonpath.ps1'
+[9.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/publisher/share/publisher/hook/pythonpath.dsv'
+[9.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/publisher/share/publisher/hook/pythonpath.sh'
+[9.761s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/publisher/bin'
+[9.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher)
+[9.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/publisher/share/publisher/package.ps1'
+[9.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakacafu/gazebo2/install/publisher/share/publisher/package.dsv'
+[9.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/publisher/share/publisher/package.sh'
+[9.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/publisher/share/publisher/package.bash'
+[9.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/publisher/share/publisher/package.zsh'
+[9.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakacafu/gazebo2/install/publisher/share/colcon-core/packages/publisher)
+[9.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakacafu/gazebo2/src/move_back' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/move_back/prefix_override:/home/kakacafu/gazebo2/install/move_back/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_back build --build-base /home/kakacafu/gazebo2/build/move_back/build install --record /home/kakacafu/gazebo2/build/move_back/install.log --single-version-externally-managed
+[9.844s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_back' for CMake module files
+[9.845s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_back' for CMake config files
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_back/lib'
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_back/bin'
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_back/lib/pkgconfig/move_back.pc'
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_back/lib/python3.10/site-packages'
+[9.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_back', 'pythonpath')
+[9.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_back/share/move_back/hook/pythonpath.ps1'
+[9.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/move_back/share/move_back/hook/pythonpath.dsv'
+[9.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/move_back/share/move_back/hook/pythonpath.sh'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/move_back/bin'
+[9.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_back)
+[9.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_back/share/move_back/package.ps1'
+[9.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakacafu/gazebo2/install/move_back/share/move_back/package.dsv'
+[9.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_back/share/move_back/package.sh'
+[9.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_back/share/move_back/package.bash'
+[9.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/move_back/share/move_back/package.zsh'
+[9.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakacafu/gazebo2/install/move_back/share/colcon-core/packages/move_back)
+[10.594s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kakacafu/gazebo2/src/robot_gazebo_test_description'
+[10.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kakacafu/gazebo2/src/robot_gazebo_test_description': PYTHONPATH=/home/kakacafu/gazebo2/build/robot_gazebo_test_description/prefix_override:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_gazebo_test_description build --build-base /home/kakacafu/gazebo2/build/robot_gazebo_test_description/build install --record /home/kakacafu/gazebo2/build/robot_gazebo_test_description/install.log --single-version-externally-managed
+[12.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kakacafu/gazebo2/src/robot_gazebo_test_description' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/robot_gazebo_test_description/prefix_override:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_gazebo_test_description build --build-base /home/kakacafu/gazebo2/build/robot_gazebo_test_description/build install --record /home/kakacafu/gazebo2/build/robot_gazebo_test_description/install.log --single-version-externally-managed
+[12.414s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/robot_gazebo_test_description' for CMake module files
+[12.415s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/robot_gazebo_test_description' for CMake config files
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib'
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/bin'
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/pkgconfig/robot_gazebo_test_description.pc'
+[12.418s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages'
+[12.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_gazebo_test_description', 'pythonpath')
+[12.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/hook/pythonpath.ps1'
+[12.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/hook/pythonpath.dsv'
+[12.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/hook/pythonpath.sh'
+[12.455s] Level 1:colcon.colcon_core.environment:checking '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/bin'
+[12.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_gazebo_test_description)
+[12.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/package.ps1'
+[12.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/package.dsv'
+[12.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/package.sh'
+[12.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/package.bash'
+[12.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/package.zsh'
+[12.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/colcon-core/packages/robot_gazebo_test_description)
+[12.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.499s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.560s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.638s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakacafu/gazebo2/install/local_setup.ps1'
+[12.676s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kakacafu/gazebo2/install/_local_setup_util_ps1.py'
+[12.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakacafu/gazebo2/install/setup.ps1'
+[12.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakacafu/gazebo2/install/local_setup.sh'
+[12.717s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kakacafu/gazebo2/install/_local_setup_util_sh.py'
+[12.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakacafu/gazebo2/install/setup.sh'
+[12.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakacafu/gazebo2/install/local_setup.bash'
+[12.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakacafu/gazebo2/install/setup.bash'
+[12.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kakacafu/gazebo2/install/local_setup.zsh'
+[12.783s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kakacafu/gazebo2/install/setup.zsh'

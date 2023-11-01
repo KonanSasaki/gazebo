@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.002425] (move) JobQueued: {'identifier': 'move', 'dependencies': OrderedDict()}
+[0.002644] (publisher) JobQueued: {'identifier': 'publisher', 'dependencies': OrderedDict()}
+[0.002777] (robot_gazebo_test_description) JobQueued: {'identifier': 'robot_gazebo_test_description', 'dependencies': OrderedDict()}
+[0.002925] (move) JobStarted: {'identifier': 'move'}
+[0.096260] (-) TimerEvent: {}
+[0.197501] (-) TimerEvent: {}
+[0.298328] (-) TimerEvent: {}
+[0.400164] (-) TimerEvent: {}
+[0.502424] (-) TimerEvent: {}
+[0.603507] (-) TimerEvent: {}
+[0.663605] (publisher) JobStarted: {'identifier': 'publisher'}
+[0.704417] (-) TimerEvent: {}
+[0.805114] (-) TimerEvent: {}
+[0.906972] (-) TimerEvent: {}
+[1.008631] (-) TimerEvent: {}
+[1.111699] (-) TimerEvent: {}
+[1.233951] (-) TimerEvent: {}
+[1.336157] (-) TimerEvent: {}
+[1.441832] (-) TimerEvent: {}
+[1.542681] (-) TimerEvent: {}
+[1.643550] (-) TimerEvent: {}
+[1.744492] (-) TimerEvent: {}
+[1.845317] (-) TimerEvent: {}
+[1.946193] (-) TimerEvent: {}
+[2.048092] (-) TimerEvent: {}
+[2.149066] (-) TimerEvent: {}
+[2.250009] (-) TimerEvent: {}
+[2.350811] (-) TimerEvent: {}
+[2.451877] (-) TimerEvent: {}
+[2.552899] (-) TimerEvent: {}
+[2.653720] (-) TimerEvent: {}
+[2.754576] (-) TimerEvent: {}
+[2.855533] (-) TimerEvent: {}
+[2.957480] (-) TimerEvent: {}
+[3.058573] (-) TimerEvent: {}
+[3.166522] (-) TimerEvent: {}
+[3.267155] (-) TimerEvent: {}
+[3.374303] (-) TimerEvent: {}
+[3.476559] (-) TimerEvent: {}
+[3.578716] (-) TimerEvent: {}
+[3.681704] (-) TimerEvent: {}
+[3.782525] (-) TimerEvent: {}
+[3.883440] (-) TimerEvent: {}
+[3.988130] (-) TimerEvent: {}
+[4.088938] (-) TimerEvent: {}
+[4.189887] (-) TimerEvent: {}
+[4.290987] (-) TimerEvent: {}
+[4.392125] (-) TimerEvent: {}
+[4.492913] (-) TimerEvent: {}
+[4.593820] (-) TimerEvent: {}
+[4.694655] (-) TimerEvent: {}
+[4.795486] (-) TimerEvent: {}
+[4.896402] (-) TimerEvent: {}
+[4.997394] (-) TimerEvent: {}
+[5.099246] (-) TimerEvent: {}
+[5.200089] (-) TimerEvent: {}
+[5.313605] (-) TimerEvent: {}
+[5.423045] (-) TimerEvent: {}
+[5.526432] (-) TimerEvent: {}
+[5.628972] (-) TimerEvent: {}
+[5.731650] (-) TimerEvent: {}
+[5.833292] (-) TimerEvent: {}
+[5.934496] (-) TimerEvent: {}
+[6.035470] (-) TimerEvent: {}
+[6.136477] (-) TimerEvent: {}
+[6.241129] (-) TimerEvent: {}
+[6.342783] (-) TimerEvent: {}
+[6.444086] (-) TimerEvent: {}
+[6.545771] (-) TimerEvent: {}
+[6.647097] (-) TimerEvent: {}
+[6.748063] (-) TimerEvent: {}
+[6.848868] (-) TimerEvent: {}
+[6.950895] (-) TimerEvent: {}
+[7.052357] (-) TimerEvent: {}
+[7.155812] (-) TimerEvent: {}
+[7.256657] (-) TimerEvent: {}
+[7.357541] (-) TimerEvent: {}
+[7.459604] (-) TimerEvent: {}
+[7.561586] (-) TimerEvent: {}
+[7.662368] (-) TimerEvent: {}
+[7.763225] (-) TimerEvent: {}
+[7.864571] (-) TimerEvent: {}
+[7.965290] (-) TimerEvent: {}
+[8.074101] (-) TimerEvent: {}
+[8.181631] (-) TimerEvent: {}
+[8.282491] (-) TimerEvent: {}
+[8.383362] (-) TimerEvent: {}
+[8.484379] (-) TimerEvent: {}
+[8.587391] (-) TimerEvent: {}
+[8.688153] (-) TimerEvent: {}
+[8.789087] (-) TimerEvent: {}
+[8.889936] (-) TimerEvent: {}
+[8.990907] (-) TimerEvent: {}
+[9.091612] (-) TimerEvent: {}
+[9.192717] (-) TimerEvent: {}
+[9.293765] (-) TimerEvent: {}
+[9.395156] (-) TimerEvent: {}
+[9.495972] (-) TimerEvent: {}
+[9.597033] (-) TimerEvent: {}
+[9.698220] (-) TimerEvent: {}
+[9.783285] (publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/publisher', 'build', '--build-base', '/home/kakacafu/gazebo2/build/publisher/build', 'install', '--record', '/home/kakacafu/gazebo2/build/publisher/install.log', '--single-version-externally-managed'], 'cwd': '/home/kakacafu/gazebo2/src/publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja_JP.UTF-8', 'USER': 'kakacafu', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kakacafu', 'OLDPWD': '/home/kakacafu/gazebo2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '1743', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kakacafu/gazebo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kakacafu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kakacafu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kakacafu:@/tmp/.ICE-unix/1712,unix/kakacafu:/tmp/.ICE-unix/1712', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9ae8870e_8316_4d68_af93_b8848604df7a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BKMZB2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.580', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kakacafu/gazebo2/install/move:/home/kakacafu/gazebo2/install/publisher:/home/kakacafu/gazebo2/install/robot_gazebo_test_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kakacafu/gazebo2/build/publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kakacafu/gazebo2/build/publisher/prefix_override:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.805799] (-) TimerEvent: {}
+[9.863586] (move) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/move', 'build', '--build-base', '/home/kakacafu/gazebo2/build/move/build', 'install', '--record', '/home/kakacafu/gazebo2/build/move/install.log', '--single-version-externally-managed'], 'cwd': '/home/kakacafu/gazebo2/src/move', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja_JP.UTF-8', 'USER': 'kakacafu', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kakacafu', 'OLDPWD': '/home/kakacafu/gazebo2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '1743', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kakacafu/gazebo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kakacafu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kakacafu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kakacafu:@/tmp/.ICE-unix/1712,unix/kakacafu:/tmp/.ICE-unix/1712', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9ae8870e_8316_4d68_af93_b8848604df7a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BKMZB2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.580', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kakacafu/gazebo2/install/move:/home/kakacafu/gazebo2/install/publisher:/home/kakacafu/gazebo2/install/robot_gazebo_test_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kakacafu/gazebo2/build/move', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kakacafu/gazebo2/build/move/prefix_override:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.906077] (-) TimerEvent: {}
+[10.006926] (-) TimerEvent: {}
+[10.107886] (-) TimerEvent: {}
+[10.208858] (-) TimerEvent: {}
+[10.310011] (-) TimerEvent: {}
+[10.422855] (-) TimerEvent: {}
+[10.523735] (-) TimerEvent: {}
+[10.625565] (-) TimerEvent: {}
+[10.727106] (-) TimerEvent: {}
+[10.829574] (-) TimerEvent: {}
+[10.935551] (-) TimerEvent: {}
+[11.037112] (-) TimerEvent: {}
+[11.139718] (-) TimerEvent: {}
+[11.241248] (-) TimerEvent: {}
+[11.342949] (-) TimerEvent: {}
+[11.444810] (-) TimerEvent: {}
+[11.547135] (-) TimerEvent: {}
+[11.649294] (-) TimerEvent: {}
+[11.751680] (-) TimerEvent: {}
+[11.853739] (-) TimerEvent: {}
+[11.965168] (-) TimerEvent: {}
+[12.069316] (-) TimerEvent: {}
+[12.171687] (-) TimerEvent: {}
+[12.273875] (-) TimerEvent: {}
+[12.376274] (-) TimerEvent: {}
+[12.477975] (-) TimerEvent: {}
+[12.585788] (-) TimerEvent: {}
+[12.696785] (-) TimerEvent: {}
+[12.782662] (move) StdoutLine: {'line': b'running egg_info\n'}
+[12.786100] (move) StdoutLine: {'line': b'writing ../../build/move/move.egg-info/PKG-INFO\n'}
+[12.789007] (move) StdoutLine: {'line': b'writing dependency_links to ../../build/move/move.egg-info/dependency_links.txt\n'}
+[12.791794] (move) StdoutLine: {'line': b'writing entry points to ../../build/move/move.egg-info/entry_points.txt\n'}
+[12.794308] (move) StdoutLine: {'line': b'writing requirements to ../../build/move/move.egg-info/requires.txt\n'}
+[12.795997] (move) StdoutLine: {'line': b'writing top-level names to ../../build/move/move.egg-info/top_level.txt\n'}
+[12.799010] (-) TimerEvent: {}
+[12.812754] (move) StdoutLine: {'line': b"reading manifest file '../../build/move/move.egg-info/SOURCES.txt'\n"}
+[12.817989] (move) StdoutLine: {'line': b"writing manifest file '../../build/move/move.egg-info/SOURCES.txt'\n"}
+[12.820603] (move) StdoutLine: {'line': b'running build\n'}
+[12.821889] (move) StdoutLine: {'line': b'running build_py\n'}
+[12.824527] (move) StdoutLine: {'line': b'running install\n'}
+[12.826709] (move) StdoutLine: {'line': b'running install_lib\n'}
+[12.836891] (move) StdoutLine: {'line': b'running install_data\n'}
+[12.847148] (move) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.862248] (move) StdoutLine: {'line': b"removing '/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages/move-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.865507] (move) StdoutLine: {'line': b'Copying ../../build/move/move.egg-info to /home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages/move-0.0.0-py3.10.egg-info\n'}
+[12.874996] (move) StdoutLine: {'line': b'running install_scripts\n'}
+[12.899520] (-) TimerEvent: {}
+[13.001324] (-) TimerEvent: {}
+[13.012120] (move) StdoutLine: {'line': b'Installing move_node script to /home/kakacafu/gazebo2/install/move/lib/move\n'}
+[13.016374] (move) StdoutLine: {'line': b"writing list of installed files to '/home/kakacafu/gazebo2/build/move/install.log'\n"}
+[13.032277] (publisher) StdoutLine: {'line': b'running egg_info\n'}
+[13.041304] (publisher) StdoutLine: {'line': b'writing ../../build/publisher/publisher.egg-info/PKG-INFO\n'}
+[13.041838] (publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/publisher/publisher.egg-info/dependency_links.txt\n'}
+[13.042112] (publisher) StdoutLine: {'line': b'writing entry points to ../../build/publisher/publisher.egg-info/entry_points.txt\n'}
+[13.050293] (publisher) StdoutLine: {'line': b'writing requirements to ../../build/publisher/publisher.egg-info/requires.txt\n'}
+[13.052271] (publisher) StdoutLine: {'line': b'writing top-level names to ../../build/publisher/publisher.egg-info/top_level.txt\n'}
+[13.059813] (publisher) StdoutLine: {'line': b"reading manifest file '../../build/publisher/publisher.egg-info/SOURCES.txt'\n"}
+[13.067269] (publisher) StdoutLine: {'line': b"writing manifest file '../../build/publisher/publisher.egg-info/SOURCES.txt'\n"}
+[13.080032] (publisher) StdoutLine: {'line': b'running build\n'}
+[13.081013] (publisher) StdoutLine: {'line': b'running build_py\n'}
+[13.083501] (publisher) StdoutLine: {'line': b'running install\n'}
+[13.091021] (publisher) StdoutLine: {'line': b'running install_lib\n'}
+[13.099517] (publisher) StdoutLine: {'line': b'running install_data\n'}
+[13.101872] (-) TimerEvent: {}
+[13.106536] (publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.115129] (publisher) StdoutLine: {'line': b"removing '/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages/publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.117203] (publisher) StdoutLine: {'line': b'Copying ../../build/publisher/publisher.egg-info to /home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages/publisher-0.0.0-py3.10.egg-info\n'}
+[13.124907] (publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[13.207468] (-) TimerEvent: {}
+[13.250705] (move) CommandEnded: {'returncode': 0}
+[13.260668] (publisher) StdoutLine: {'line': b'Installing publisher_node script to /home/kakacafu/gazebo2/install/publisher/lib/publisher\n'}
+[13.264110] (publisher) StdoutLine: {'line': b"writing list of installed files to '/home/kakacafu/gazebo2/build/publisher/install.log'\n"}
+[13.307881] (-) TimerEvent: {}
+[13.418620] (-) TimerEvent: {}
+[13.523077] (-) TimerEvent: {}
+[13.634093] (-) TimerEvent: {}
+[13.661271] (move) JobEnded: {'identifier': 'move', 'rc': 0}
+[13.664379] (robot_gazebo_test_description) JobStarted: {'identifier': 'robot_gazebo_test_description'}
+[13.734503] (-) TimerEvent: {}
+[13.835340] (-) TimerEvent: {}
+[13.936075] (-) TimerEvent: {}
+[14.037133] (-) TimerEvent: {}
+[14.138115] (-) TimerEvent: {}
+[14.253946] (-) TimerEvent: {}
+[14.272665] (publisher) CommandEnded: {'returncode': 0}
+[14.354312] (-) TimerEvent: {}
+[14.456299] (-) TimerEvent: {}
+[14.557772] (-) TimerEvent: {}
+[14.642244] (publisher) JobEnded: {'identifier': 'publisher', 'rc': 0}
+[14.661669] (-) TimerEvent: {}
+[14.762488] (-) TimerEvent: {}
+[14.863343] (-) TimerEvent: {}
+[14.964488] (-) TimerEvent: {}
+[15.065238] (-) TimerEvent: {}
+[15.166383] (-) TimerEvent: {}
+[15.267124] (-) TimerEvent: {}
+[15.369166] (-) TimerEvent: {}
+[15.470299] (-) TimerEvent: {}
+[15.573891] (-) TimerEvent: {}
+[15.674683] (-) TimerEvent: {}
+[15.775524] (-) TimerEvent: {}
+[15.876425] (-) TimerEvent: {}
+[15.977275] (-) TimerEvent: {}
+[16.078604] (-) TimerEvent: {}
+[16.179762] (-) TimerEvent: {}
+[16.280594] (-) TimerEvent: {}
+[16.382524] (-) TimerEvent: {}
+[16.483436] (-) TimerEvent: {}
+[16.584565] (-) TimerEvent: {}
+[16.688199] (-) TimerEvent: {}
+[16.790053] (-) TimerEvent: {}
+[16.890884] (-) TimerEvent: {}
+[16.991577] (-) TimerEvent: {}
+[17.092296] (-) TimerEvent: {}
+[17.193090] (-) TimerEvent: {}
+[17.293980] (-) TimerEvent: {}
+[17.394831] (-) TimerEvent: {}
+[17.498743] (-) TimerEvent: {}
+[17.599651] (-) TimerEvent: {}
+[17.700604] (-) TimerEvent: {}
+[17.801325] (-) TimerEvent: {}
+[17.902486] (-) TimerEvent: {}
+[18.003161] (-) TimerEvent: {}
+[18.103968] (-) TimerEvent: {}
+[18.205051] (-) TimerEvent: {}
+[18.305886] (-) TimerEvent: {}
+[18.406762] (-) TimerEvent: {}
+[18.507572] (-) TimerEvent: {}
+[18.608343] (-) TimerEvent: {}
+[18.709194] (-) TimerEvent: {}
+[18.810261] (-) TimerEvent: {}
+[18.828430] (robot_gazebo_test_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_gazebo_test_description', 'build', '--build-base', '/home/kakacafu/gazebo2/build/robot_gazebo_test_description/build', 'install', '--record', '/home/kakacafu/gazebo2/build/robot_gazebo_test_description/install.log', '--single-version-externally-managed'], 'cwd': '/home/kakacafu/gazebo2/src/robot_gazebo_test_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja_JP.UTF-8', 'USER': 'kakacafu', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kakacafu', 'OLDPWD': '/home/kakacafu/gazebo2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '1743', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kakacafu/gazebo2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kakacafu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kakacafu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kakacafu:@/tmp/.ICE-unix/1712,unix/kakacafu:/tmp/.ICE-unix/1712', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9ae8870e_8316_4d68_af93_b8848604df7a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BKMZB2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.580', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kakacafu/gazebo2/install/move:/home/kakacafu/gazebo2/install/publisher:/home/kakacafu/gazebo2/install/robot_gazebo_test_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kakacafu/gazebo2/build/robot_gazebo_test_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kakacafu/gazebo2/build/robot_gazebo_test_description/prefix_override:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages:/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[18.912902] (-) TimerEvent: {}
+[19.013809] (-) TimerEvent: {}
+[19.114584] (-) TimerEvent: {}
+[19.215327] (-) TimerEvent: {}
+[19.316054] (-) TimerEvent: {}
+[19.417555] (-) TimerEvent: {}
+[19.519244] (-) TimerEvent: {}
+[19.623170] (-) TimerEvent: {}
+[19.724010] (-) TimerEvent: {}
+[19.824874] (-) TimerEvent: {}
+[19.926254] (-) TimerEvent: {}
+[20.027206] (-) TimerEvent: {}
+[20.128245] (-) TimerEvent: {}
+[20.229325] (-) TimerEvent: {}
+[20.330390] (-) TimerEvent: {}
+[20.433163] (-) TimerEvent: {}
+[20.538140] (-) TimerEvent: {}
+[20.639290] (-) TimerEvent: {}
+[20.740944] (-) TimerEvent: {}
+[20.803888] (robot_gazebo_test_description) StdoutLine: {'line': b'running egg_info\n'}
+[20.806274] (robot_gazebo_test_description) StdoutLine: {'line': b'writing ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/PKG-INFO\n'}
+[20.817052] (robot_gazebo_test_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/dependency_links.txt\n'}
+[20.820427] (robot_gazebo_test_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/entry_points.txt\n'}
+[20.821140] (robot_gazebo_test_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/requires.txt\n'}
+[20.823733] (robot_gazebo_test_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/top_level.txt\n'}
+[20.830844] (robot_gazebo_test_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/SOURCES.txt'\n"}
+[20.839778] (robot_gazebo_test_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info/SOURCES.txt'\n"}
+[20.841863] (robot_gazebo_test_description) StdoutLine: {'line': b'running build\n'}
+[20.842394] (-) TimerEvent: {}
+[20.844721] (robot_gazebo_test_description) StdoutLine: {'line': b'running build_py\n'}
+[20.848357] (robot_gazebo_test_description) StdoutLine: {'line': b'running install\n'}
+[20.849906] (robot_gazebo_test_description) StdoutLine: {'line': b'running install_lib\n'}
+[20.855922] (robot_gazebo_test_description) StdoutLine: {'line': b'running install_data\n'}
+[20.859388] (robot_gazebo_test_description) StdoutLine: {'line': b'copying urdf/robot_gazebo_test.gazebo -> /home/kakacafu/gazebo2/install/robot_gazebo_test_description/share/robot_gazebo_test_description/urdf\n'}
+[20.863683] (robot_gazebo_test_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.874707] (robot_gazebo_test_description) StdoutLine: {'line': b"removing '/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages/robot_gazebo_test_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.875153] (robot_gazebo_test_description) StdoutLine: {'line': b'Copying ../../build/robot_gazebo_test_description/robot_gazebo_test_description.egg-info to /home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages/robot_gazebo_test_description-0.0.0-py3.10.egg-info\n'}
+[20.894550] (robot_gazebo_test_description) StdoutLine: {'line': b'running install_scripts\n'}
+[20.946272] (-) TimerEvent: {}
+[21.047144] (-) TimerEvent: {}
+[21.052289] (robot_gazebo_test_description) StdoutLine: {'line': b"writing list of installed files to '/home/kakacafu/gazebo2/build/robot_gazebo_test_description/install.log'\n"}
+[21.132252] (robot_gazebo_test_description) CommandEnded: {'returncode': 0}
+[21.149064] (-) TimerEvent: {}
+[21.250038] (-) TimerEvent: {}
+[21.351284] (-) TimerEvent: {}
+[21.453618] (-) TimerEvent: {}
+[21.472438] (robot_gazebo_test_description) JobEnded: {'identifier': 'robot_gazebo_test_description', 'rc': 0}
+[21.477885] (-) EventReactorShutdown: {}

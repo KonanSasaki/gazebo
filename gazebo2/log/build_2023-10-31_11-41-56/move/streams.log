@@ -1,0 +1,21 @@
+[6.529s] Invoking command in '/home/kakacafu/gazebo2/src/move': PYTHONPATH=/home/kakacafu/gazebo2/build/move/prefix_override:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/kakacafu/gazebo2/build/move/build install --record /home/kakacafu/gazebo2/build/move/install.log --single-version-externally-managed
+[7.620s] running egg_info
+[7.628s] writing ../../build/move/move.egg-info/PKG-INFO
+[7.629s] writing dependency_links to ../../build/move/move.egg-info/dependency_links.txt
+[7.629s] writing entry points to ../../build/move/move.egg-info/entry_points.txt
+[7.629s] writing requirements to ../../build/move/move.egg-info/requires.txt
+[7.630s] writing top-level names to ../../build/move/move.egg-info/top_level.txt
+[7.633s] reading manifest file '../../build/move/move.egg-info/SOURCES.txt'
+[7.634s] writing manifest file '../../build/move/move.egg-info/SOURCES.txt'
+[7.634s] running build
+[7.635s] running build_py
+[7.635s] running install
+[7.635s] running install_lib
+[7.639s] running install_data
+[7.644s] running install_egg_info
+[7.647s] removing '/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages/move-0.0.0-py3.10.egg-info' (and everything under it)
+[7.648s] Copying ../../build/move/move.egg-info to /home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages/move-0.0.0-py3.10.egg-info
+[7.663s] running install_scripts
+[7.724s] Installing move_node script to /home/kakacafu/gazebo2/install/move/lib/move
+[7.725s] writing list of installed files to '/home/kakacafu/gazebo2/build/move/install.log'
+[8.260s] Invoked command in '/home/kakacafu/gazebo2/src/move' returned '0': PYTHONPATH=/home/kakacafu/gazebo2/build/move/prefix_override:/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move build --build-base /home/kakacafu/gazebo2/build/move/build install --record /home/kakacafu/gazebo2/build/move/install.log --single-version-externally-managed

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages",
+        "/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages",
+        "/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kakacafu/gazebo2/install/robot_gazebo_test_description/lib/python3.10/site-packages",
+        "/home/kakacafu/gazebo2/install/publisher/lib/python3.10/site-packages",
+        "/home/kakacafu/gazebo2/install/move/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
